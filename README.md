@@ -1,4 +1,5 @@
 # [<p align="center"> BrawlDocs </p>](https://github.com/Gabriel55ita/BrawlDocs/wiki)
+![stars](https://badgen.net/github/stars/Gabriel55ita/BrawlDocs)
 <p align="center"> 
   Made with the power of Haccy Cats!
 </p>
