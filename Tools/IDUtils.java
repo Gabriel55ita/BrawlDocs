@@ -9,7 +9,7 @@ public class IDUtils {
      * Converts the id to the tag version
      * @return Tag
      */
-    public static String id2Tag(int id) {
+    public static String id2Tag(long id) {
         StringBuilder tag = new StringBuilder();
         while (id > 0) {
             int charIndex = (int) Math.floor(id % tagChars.length);
