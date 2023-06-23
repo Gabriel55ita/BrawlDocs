@@ -90,7 +90,7 @@ public class LongToCodeConverter {
                     }
 
                     unk12 = unk6 * conversionChars.length() + subStrIdx;
-                    unk7 = (LogicLong.toLong((int) unk7, unk6) * conversionChars.length() + subStrIdx) >> 32;
+                    unk7 = (toLong((int) unk7, unk6) * conversionChars.length() + subStrIdx) >> 32;
                     unk6 = unk12;
                     i = counter;
                 } while (counter < codeSubstring.length());
