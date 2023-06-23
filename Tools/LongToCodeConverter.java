@@ -120,6 +120,6 @@ public class LongToCodeConverter {
     }
 
     private long toLongS(int hiInt, int loInt) {
-        return (((long)(hiInt) << 32) | loInt);
+        return ((long)hiInt << 32) | loInt;
     }
 }
