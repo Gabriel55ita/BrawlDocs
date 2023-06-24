@@ -42,7 +42,7 @@ public class LongToCodeConverter {
             return null;
         }
     }
-    
+
     private String convert(long id) {
         StringBuilder tag = new StringBuilder();
         int len = conversionChars.length();
@@ -98,7 +98,7 @@ public class LongToCodeConverter {
                 if ((unk12 & unk7) != -1) {
                     v13 = toLongS((int) unk7, unk12) >> 8;
                     loInt = (int) (v13 & 0x7FFFFFFF);
-                    hiInt = 0;
+                    hiInt = (byte)unk6;
                     return toLong(hiInt, loInt);
                 }
 
