@@ -1,7 +1,7 @@
 # [<p align="center"> BrawlDocs </p>](https://github.com/Gabriel55ita/BrawlDocs/wiki)
 
 <p align="center"> 
-  Made with the power of Haccy Cats!
+  Made with ❤
 </p>
 
 <p align="center"> 
