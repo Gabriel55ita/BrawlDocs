@@ -98,7 +98,7 @@ public class LongToCodeConverter {
                 if ((unk12 & unk7) != -1) {
                     v13 = toLongS((int) unk7, unk12) >> 8;
                     loInt = (int) (v13 & 0x7FFFFFFF);
-                    hiInt = (byte)unk6;
+                    hiInt = unk6 & 0xFF;
                     return toLong(hiInt, loInt);
                 }
 
@@ -118,8 +118,8 @@ public class LongToCodeConverter {
     private long toLong(int hiInt, int loInt) {
         return ((long)hiInt << 32) | (loInt & 0xFFFFFFFFL);
     }
-
+    
     private long toLongS(int hiInt, int loInt) {
-        return ((long)hiInt << 32) | loInt;
+        return ((long)hiInt << 32) | ((long)loInt);
     }
 }
