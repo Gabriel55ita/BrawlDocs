@@ -4,6 +4,8 @@
   Made with ❤
 </p>
 
+Note: the wiki will soon get a big revamp!
+
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/60621266/166125107-d664c1ca-462a-455e-bffb-d9830bba1ac5.png">
 </p>
